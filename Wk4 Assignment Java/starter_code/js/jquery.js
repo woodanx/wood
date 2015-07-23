@@ -8,7 +8,7 @@ $(document).ready(
 		$(".hide").slideDown();		
 		}
 
-		$(".readless hide").click(unreveal);
+		$(".readless").click(unreveal);
 
 		function unreveal(){
 		$(".hide").slideUp();
